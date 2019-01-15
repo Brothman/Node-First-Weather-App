@@ -18,6 +18,12 @@
   },
   "homepage": "https://github.com/Brothman/Node-First-Weather-App#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "body-parser": "^1.18.3",
+    "browser-sync": "^2.26.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "gulp": "^4.0.0",
+    "opn": "^5.4.0",
+    "request": "^2.88.0"
   }
 }
