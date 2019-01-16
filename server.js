@@ -63,7 +63,12 @@ app.post('/', (request1, response) => {
     });
 });
 
-app.listen(3000, () => {
-    console.log('First Node app listening on port 3000!');
-    opn('http://localhost:3000/');
+// app.listen(3000, () => {
+//     console.log('First Node app listening on port 3000!');
+//     opn('http://localhost:3000/');
+// });
+
+//process.env.PORT lets the port be set by Heroku
+app.listen(process.env.PORT, () => {
+    //
 });
