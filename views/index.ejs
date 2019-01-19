@@ -13,6 +13,12 @@
             <form action="/" method="post">
                 <input name="city" type="text" class="ghost-input" placeholder="Enter a City" required>
                 <input type="submit" class="ghost-button" value="Get Weather">
+                <label name="unit"> Fahrenheit
+                    <input type="radio" name="unit" checked="true" value="fahrenheit"/>
+                </label>
+                <label name="unit" value="celsius"> Celsius
+                    <input type="radio" name="unit" value="celsius" />
+                </label>
             </form>
             <% if(weather!== null) { %>
                 <p>
@@ -24,6 +30,7 @@
                     <%= error %>
                 </p>
             <% } %>
+
         </fieldset>
     </div>
 </body>
